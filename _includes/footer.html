@@ -8,6 +8,10 @@
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="https://www.facebook.com/6thirteenmoving/"><i class="fa fa-facebook"></i></a>
+                           <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                              <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                 <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
                     </ul>
