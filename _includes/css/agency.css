@@ -265,6 +265,17 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.logo-header{
+     height: 200%;
+}
+
+@media screen and (min-width: 992px) {
+  .logo-header{
+     height: 250%;
+  }
+}
+
+
 header {
     text-align: center;
     color: #fff;
