@@ -319,7 +319,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: "Metropolis",sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -348,9 +348,8 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: "Metropolis",sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -428,9 +427,8 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: "Metropolis",sans-serif;
     font-size: 16px;
-    font-style: italic;
 }
 
 #commercial .portfolio-item .portfolio-caption {
@@ -448,9 +446,8 @@ section h3.section-subheading {
 
 #commercial .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: "Metropolis",sans-serif;
     font-size: 16px;
-    font-style: italic;
 }
 
 #commercial * {
